@@ -1,4 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: border-box;
+}
+
+body {
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#foto {
+    margin-top: 2rem;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0%;
+    background-color: black;
+    color: white;
+    width: auto;
+}
+
+h3 {
+    background-color: red;
+    color: white;
+    width: auto;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+main {
+    margin-top: 2rem;
+    background-color: white;
+    width: 85%;
+}
+
+ul {
+    margin-left: 4rem;
+}
+
+.datosPersonales {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.fecha {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.enlace {
+    background-color: red;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 85%;
+}
+
+.ico {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
